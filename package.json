@@ -1,0 +1,16 @@
+{
+  "name": "metodo-quiz-live",
+  "version": "1.2.0",
+  "description": "Quiz multijugador tipo Kahoot para Metodología de la Investigación, con distribución de respuestas y estadísticas finales por jugador",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
